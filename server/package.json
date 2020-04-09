@@ -1,0 +1,39 @@
+{
+  "name": "online-order-api",
+  "version": "1.0.0",
+  "description": "CRUD Rest API for Online Shop Orders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "bcrypt": "^4.0.1",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
